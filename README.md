@@ -9,11 +9,15 @@
 </p>
 
 ## Overview
-
 Powershell script to generate private keys and certificate signing requests. 
 
 - GUI form to collect user input.
-- Generates custom CertUtil configuration file.
-- Utilizes Microsoft Cryptographic Libraries.
+- Native request generation using System.Security.Cryptography class.
+
+## Requirements
+- PowerShell 5
+- .Net Framework 4.7.2
+
+
 
 
